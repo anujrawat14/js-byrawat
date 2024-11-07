@@ -19,9 +19,21 @@ console.log(hundreds.toLocaleString("en-In"));//by default it sets US standard
 
 console.log( Math.abs(-5));  //converts negative integer to positive
 console.log(Math.round(4.8));//it is used to round of given number
-console.log(Math.ceil(4.8));//it is used to round of given number
-console.log(Math.(4.8));//it is used to round of given number
-con 
+console.log(Math.ceil(4.8));//it is used to give upper value of given number i.e 5
+console.log(Math.floor(4.8));//it is used to  give lower value of given number i.e 4
+
+console.log(Math.random())
+
+// If YOU want number btw 1 to 10
+console.log(Math.floor(Math.random()*10)+1)
+
+
+const min=10;
+const max=20;
+
+console.log((Math.random()*(max-min+1))+min);//it can genrate random number between any two  number
+
+
 
 
 
